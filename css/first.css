@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Fredoka", sans-serif;
+}
+.head{
+    font-size: 25px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.about{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about img{
+    width: 90%;
+    height: 600px; 
+    border-radius: 5px;
+    /* object-fit: cover; */
+    margin-top: 40px;
+}
+#hide{
+    background-color: #dfdede;
+    box-shadow: 0px 0px 220px #ccc;
+    color: crimson;
+    position: absolute;
+    transition: 0.7s;
+    z-index: 3;
+    right: 0;
+    top: 0;
+    width: 0;
+    overflow: hidden;
+}
+.row{
+    display: flex;
+    font-size: 18px;
+    background-color: #23c9f3;
+    color: rgb(91, 14, 73);
+justify-content: space-between;
+padding: 10px;
+height: auto;
+
+}
+.row button{
+    background:transparent;
+    border: none;
+    font-size: 20px;
+}
+
+.content{  
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    overflow: hidden;
+    height: 100vh;
+
+}
+.content a{
+    text-decoration: none;
+    color: #23c9f3;
+    text-align: center;
+    padding:10px;
+    margin-top: 30px;
+   
+}
+
+.btn a{
+    background-color: darkblue;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.btn{
+    margin: 10px 0px 20px 0px;
+    
+}
+.head button{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+.first{
+    margin-top: 20px;
+}
+.first p{
+    background-color: #c6e5ed;
+    font-size: 20px;
+    padding: 10px;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+    background-color: darkblue;
+    padding: 5px 10px;
+    border-radius: 30px;
+    margin-left: 20px;
+   
+}
+.picture img{
+    width: 100%;
+    height: auto;
+}
+.picture{
+    width: 100%;
+}

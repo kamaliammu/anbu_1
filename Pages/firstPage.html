@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Anbu</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap"
+          rel="stylesheet"
+        />
+        <script
+          src="https://kit.fontawesome.com/7d40bb7855.js"
+          crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="../css/first.css" >
+        <script src="https://unpkg.com/scrollreveal"></script>
+      </head>
+<body>
+    <div class="head">
+        <h3>About You..❤</h3>
+        <button type="button" onclick="clicked()"><i class="fa-solid fa-bars"></i></button>
+    </div>
+    <div id="hide">
+        <div class="row">
+            <p>Its Mah Small Gift da Thangoo🦋</p>
+            <button type="button" onclick="closeIcon()"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="content">
+            <a href="../index.html">Home</a>
+            <a href="./firstPage.html">About</a>
+            <a href="./secondPage.html">Images</a>
+            <a href="./six.html">Final</a>
+        </div>
+    </div>
+    <div class="about">
+        <img src="../assets/images/anbu.jpeg" alt="">
+    </div>
+    <div class="first">
+       <p>Anbeyy❤..!</p>
+       <p>Lucky to have you da..!😘</p>
+       <p>Caring Person..!</p>
+       <p>Happy ah iru epovum athuvey pothum..!</p>
+       <p>No one can replace your place da paithiyakara..!😘</p>
+       <p>Neraiya eluthanum nu nenchachude irunthe aana nee epo pathalum sanda poddude irukka nala enna sollanum nu theriyala..!</p>
+       <p>Sorry naa unnaiya ethavathu hurt pannirutha mannichude..!</p>
+      <div class="btn">
+        <a href="./secondPage.html">Next Page</a>
+      </div>
+    </div>
+<script>
+       ScrollReveal().reveal(".first p", {duration: 950, reset: true, origin: 'top',distance: '200px', });
+      ScrollReveal().reveal(".head", {duration: 950, reset: true, origin: 'right',distance: '200px', });
+      ScrollReveal().reveal(".about img", { delay: 900,duration: 500, reset: true, origin: 'left',distance: '350px', });
+    function clicked(){
+         const open=document.getElementById('hide')
+         open.style.width='100%'
+      }
+      function closeIcon(){
+         const open=document.getElementById('hide')
+         open.style.width='0'
+      }
+</script>
+    
+</body>
+</html>

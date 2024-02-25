@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anbu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/7d40bb7855.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+    <div class="head">
+      <h1 class="title">HAPPY BIRTHDAY THANGOOO❤</h1>
+      <button type="button" onclick="clicked()"><i class="fa-solid fa-bars"></i></button>
+    </div>
+    <div id="hide">
+        <div class="row">
+            <p>Its Mah Small Gift da Thangoo🦋</p>
+            <button type="button" onclick="closeIcon()"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="content">
+            <a href="index.html">Home</a>
+            <a href="./Pages/firstPage.html">About</a>
+            <a href="./Pages/secondPage.html">Images</a>
+            <a href="./Pages/six.html">Final</a>
+        </div>
+    </div>
+    <div class="first">
+      <img src="./assets/images/backgrd.jpg" alt="" />
+      <div class="inside">
+        <p>
+          கடல் வானம் கூட நிறம் மாறக் கூடும் மனம் கொண்ட பாசம் தடம் மாறிடாது..!😘
+        </p>
+      </div>
+      <div class="para">
+        <p>Hey Anbeyy❤..!</p>
+        <p>Mah Long Distance Love..!</p>
+        <p>
+          The distance between us grows, but so does our love for each other..!
+        </p>
+        <p>
+          Today's your birthday i know its true, so here's my Heart full
+          birthday wish, its from me to you!
+        </p>
+        <p>
+          I truly wish that you are blessed with all the happiness, health, joy
+          and prosperity in life. After all, you will share all you have with
+          me Happy Birthday to the twinkle of my eye and the person
+          who I love from the bottom of my heart..!
+        </p>
+        <p>Cheers to <b>23 age</b> step into a new chapter..!</p>
+        <!-- <p>23 Gifts To You daa..Nerla Iruntha Vangi kuduthuruppen but ipothaiku ennala intha website la tha da panna mudiyum..!😚</p> -->
+        <div class="btn">
+          <a href="./Pages/firstPage.html">Next Page</a>
+        </div>
+      </div>
+    </div>
+    <script>
+      ScrollReveal().reveal(".first p", {duration: 950, reset: true, origin: 'top',distance: '450%', });
+      ScrollReveal().reveal(".title", {duration: 950, reset: true, origin: 'right',distance: '450%', });
+      ScrollReveal().reveal(".first img", { delay: 900,duration: 500, reset: true, origin: 'left',distance: '350%', });
+      
+
+      function clicked(){
+         const open=document.getElementById('hide')
+         open.style.width='100%'
+      }
+      function closeIcon(){
+         const open=document.getElementById('hide')
+         open.style.width='0'
+      }
+      
+    </script>
+
+  </body>
+</html>
